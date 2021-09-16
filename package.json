@@ -1,14 +1,10 @@
 {
     "name": "@jesseburke/svg-scene-with-react",
-    "version": "0.0.6",
-    "dependencies": {
-        "@radix-ui/react-tooltip": "^0.0.20",
-        "points-on-curve": "^0.2.0"
-    },
+    "version": "0.0.0",
     "peerDependencies": {
-        "@jesseburke/basic-utils": "latest",
-        "@jesseburke/jotai-data-setup": "latest",
-        "@jesseburke/math-utils": "latest",
+        "@jesseburke/basic-utils": "^0.0.1",
+        "@jesseburke/jotai-data-setup": "^0.0.0",
+        "@jesseburke/math": "^0.1.0",
         "jotai": ">=0.16.8",
         "react": ">=16.8"
     },
