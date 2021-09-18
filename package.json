@@ -1,9 +1,9 @@
 {
     "name": "@jesseburke/svg-scene-with-react",
-    "version": "0.0.0",
+    "version": "0.0.2",
     "peerDependencies": {
         "@jesseburke/basic-utils": "^0.0.1",
-        "@jesseburke/jotai-data-setup": "^0.0.0",
+        "@jesseburke/jotai-data-setup": "^0.0.1",
         "@jesseburke/math-utils": "^0.0.0",
         "jotai": ">=0.16.8",
         "react": ">=16.8"
