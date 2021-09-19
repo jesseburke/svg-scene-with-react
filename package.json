@@ -1,6 +1,6 @@
 {
     "name": "@jesseburke/svg-scene-with-react",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependencies": {
         "@radix-ui/react-tooltip": "^0.0.20",
         "points-on-curve": "^0.2.0"
