@@ -1,12 +1,12 @@
 {
     "name": "@jesseburke/svg-scene-with-react",
     "version": "0.0.0",
-    "peerDependencies": {
+    "dependencies": {
         "@jesseburke/basic-utils": "^0.0.1",
         "@jesseburke/jotai-data-setup": "^0.0.0",
-        "@jesseburke/math-utils": "^0.0.0",
-        "jotai": ">=0.16.8",
-        "react": ">=16.8"
+        "@jesseburke/math": "^0.1.0",
+        "jotai": "^0.16.8",
+        "react": "^16.14.0"
     },
     "devDependencies": {
         "autoprefixer": "^10.3.4",

@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback, useContext } from 'rea
 import { atom, useAtom } from 'jotai';
 import { curveToBezier } from 'points-on-curve/lib/curve-to-bezier.js';
 
-import { FunctionGraphPts2D } from '@jesseburke/math-utils';
+import { FunctionGraphPts2D } from '@jesseburke/math';
 import { SvgContext } from './SvgScene';
 
 export default function SvgFunctionGraph({ displayPoints = false, curveDataAtom, funcAtom }) {
