@@ -4,3 +4,4 @@ export { default as SvgFunctionGraph } from './SvgFunctionGraph';
 export { default as SvgParamGraph } from './SvgParamGraph';
 export { default as SvgScene, SvgContext } from './SvgScene';
 export { default as SvgZoomBar } from './SvgZoomBar';
+export { default as SvgDataComp } from './SvgData';
