@@ -6,8 +6,6 @@ import { CombineReadWriteAtoms } from '@jesseburke/jotai-data-setup';
 
 import { MatrixFactory } from '@jesseburke/math-utils';
 
-import { diffObjects, isEmpty, myStringify } from '@jesseburke/basic-utils';
-
 export const defaultZoom1XWidth = 20; // can y width from this and aspect ratio
 export const defaultInitXCenter = 0;
 export const defaultInitYCenter = 0;

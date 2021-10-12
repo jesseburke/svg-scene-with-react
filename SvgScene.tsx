@@ -1,15 +1,7 @@
-import React, {
-    Fragment,
-    useRef,
-    useEffect,
-    useCallback,
-    Children,
-    cloneElement,
-    createContext
-} from 'react';
-import { atom, useAtom } from 'jotai';
+import React, { useRef, useEffect, useCallback, createContext } from 'react';
+import { useAtom } from 'jotai';
 
-import SvgZoomBar from './SvgZoomBar';
+import SvgZoomBar from './components/SvgZoomBar';
 import SvgDataComp from './SvgData';
 
 const pixelRatio = 1; //window.devicePixelRatio;
@@ -52,6 +44,10 @@ export default ({ svgData = defaultSvgData, canPan = true, children = {} } = {})
 
     const zoomAtMax = useAtom(zoomAtMaxAtom)[0];
     const zoomAtMin = useAtom(zoomAtMinAtom)[0];
+
+    //----------------------------------------
+    //
+    // record size of svg canvas, in css pixels
 
     useEffect(() => {
         if (!svgParentRef.current) {
@@ -110,6 +106,10 @@ export default ({ svgData = defaultSvgData, canPan = true, children = {} } = {})
             document.body.style.cursor = 'crosshair';
         }
     }, [mode]);
+
+    //----------------------------------------
+    //
+    // helper function for event handling
 
     const domToSvgCoords = useCallback(({ x: dx, y: dy }) => {
         if (!svgRef.current) return;

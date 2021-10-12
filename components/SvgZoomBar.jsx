@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback, useContext } from 'rea
 import { atom, useAtom } from 'jotai';
 import * as Tooltip from '@radix-ui/react-tooltip';
 
-import { SvgContext } from './SvgScene';
+import { SvgContext } from '../SvgScene';
 
 const left = 0;
 const size = 30;

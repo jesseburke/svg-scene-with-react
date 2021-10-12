@@ -3,7 +3,7 @@ import { atom, useAtom } from 'jotai';
 
 import { round } from '@jesseburke/basic-utils';
 
-import { SvgContext } from './SvgScene';
+import { SvgContext } from '../SvgScene';
 
 const originRadius = 5;
 const axesWidth = 2;

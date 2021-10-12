@@ -9,7 +9,7 @@ import React, {
 import { atom, useAtom } from 'jotai';
 
 import { round } from '@jesseburke/basic-utils';
-import { SvgContext } from './SvgScene';
+import { SvgContext } from '../SvgScene';
 
 export default function SvgBorderAxes() {
     const { mathBoundsAtom, svgBoundsAtom, zoomAtom, mathToSvgFuncAtom } = useContext(SvgContext);
