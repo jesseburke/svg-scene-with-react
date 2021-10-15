@@ -1,6 +1,6 @@
 {
     "name": "@jesseburke/svg-scene-with-react",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependencies": {
         "@jesseburke/basic-utils": "^0.0.1",
         "@jesseburke/jotai-data-setup": "^0.0.5",
